@@ -3,7 +3,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 // const questions = [];
-const promptUser = () => {
+const promptUser = projectData => {
     return inquirer.prompt([
         // Project Title
         {
@@ -100,7 +100,19 @@ function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() {
-    promptUser();
+    promptUser()
+        .then(projectData => {
+            return generateMarkdown(projectData);
+        })
+        // .then(readmeFile => {
+        //     return writeToFile(readmeFile);
+        // })
+        // .then(writeFileResponse => {
+        //     console.log(writeFileResponse);
+        // })
+        .catch(err => {
+            console.log(err);
+        });
 }
 
 // Function call to initialize app
