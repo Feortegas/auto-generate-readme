@@ -1,135 +1,79 @@
 const GNUAGPLv3 = `
-#### Permissions
-    - Commercial use
-    - Distribution
-    - Modification
-    - Patent use
-    - Private use
-
- #### Conditions
-    - Disclose source
-    - License and copyright notice
-    - Network use is distribution
-    - Same license
-    - State changes
-
- #### Limitations
-    - Liability
-    - Warranty`
+|   Permissions  |          Conditions          | Limitations |
+| -------------- | ---------------------------- | ----------- |
+| Commercial use | Disclose source              | Liability   |
+| Distribution   | License and copyright notice | Warranty    |
+| Modification   | Network use is distribution  |             |
+| Patent use     | Same license                 |             |
+| Private use    | State changes                |             |
+`
 
 const GNUGPLv3 = `
-#### Permissions
-    - Commercial use
-    - Distribution
-    - Modification
-    - Patent use
-    - Private use
-
-#### Conditions
-    - Disclose source
-    - License and copyright notice
-    - Same license 
-    - State changes
-
-#### Limitations
-    - Liability
-    - Warranty`
+|   Permissions  |          Conditions          | Limitations |
+| -------------- | ---------------------------- | ----------- |
+| Commercial use | Disclose source              | Liability   |
+| Distribution   | License and copyright notice | Warranty    |
+| Modification   | Same license                 |             |
+| Patent use     | State changes                |             |
+| Private use    |                              |             |
+`
 
 const GNULGPLv3 = `
-#### Permissions
-    - Commercial use
-    - Distribution
-    - Modification
-    - Patent use
-    - Private use
-
-#### Conditions
-    - Disclose source
-    - License and copyright notice
-    - Same license (library)
-    - State changes
-
-#### Limitations
-    - Liability
-    - Warranty`
+|   Permissions  |          Conditions          | Limitations |
+| -------------- | ---------------------------- | ----------- |
+| Commercial use | Disclose source              | Liability   |
+| Distribution   | License and copyright notice | Warranty    |
+| Modification   | Same license                 |             |
+| Patent use     | State changes                |             |
+| Private use    |                              |             |
+`
 
 const MozilaPL2 = `
-#### Permissions
-    - Commercial use
-    - Distribution
-    - Modification
-    - Patent use
-    - Private use
-
-#### Conditions
-    - Disclose source
-    - License and copyright notice
-    - Same license (file)
-
-#### Limitations
-    - Liability
-    - Trademark use
-    - Warranty`
+|   Permissions  |          Conditions          |  Limitations  |
+| -------------- | ---------------------------- | -----------   |
+| Commercial use | Disclose source              | Liability     |
+| Distribution   | License and copyright notice | Trademark use |
+| Modification   | Same license                 | Warranty      |
+| Patent use     |                              |               |
+| Private use    |                              |               |
+`
 
 const Apache = `
-#### Permissions
-    - Commercial use
-    - Distribution
-    - Modification
-    - Patent use
-    - Private use
-
-#### Conditions
-    - License and copyright notice
-    - State changes
-
-#### Limitations
-    - Liability
-    - Trademark use
-    - Warranty`
+|   Permissions  |          Conditions          |  Limitations  |
+| -------------- | ---------------------------- | -----------   |
+| Commercial use | License and copyright notice | Liability     |
+| Distribution   | State changes                | Trademark use |
+| Modification   |                              | Warranty      |
+| Patent use     |                              |               |
+| Private use    |                              |               |
+`
 
 const MIT = `
-#### Permissions
-    - Commercial use
-    - Distribution
-    - Modification
-    - Private use
-
-#### Conditions
-    - License and copyright notice
-
-#### Limitations
-    - Liability
-    - Warranty`
+|   Permissions  |          Conditions          | Limitations |
+| -------------- | ---------------------------- | ----------- |
+| Commercial use | License and copyright notice | Liability   |
+| Distribution   |                              | Warranty    |
+| Modification   |                              |             |
+| Private use    |                              |             |
+`
 
 const Boost = `
-#### Permissions
-    - Commercial use
-    - Distribution
-    - Modification
-    - Private use
-
-#### Conditions
-    - License and copyright notice for source
-
-#### Limitations
-    - Liability
-    - Warranty`
+|   Permissions  |          Conditions          | Limitations |
+| -------------- | ---------------------------- | ----------- |
+| Commercial use | License and copyright notice | Liability   |
+| Distribution   |                              | Warranty    |
+| Modification   |                              |             |
+| Private use    |                              |             |
+`
 
 const theUnlicense = `
-
-#### Permissions
-    - Commercial use
-    - Distribution
-    - Modification
-    - Private use
-
-#### Conditions
-    - None
-
-##### Limitations
-    - Liability
-    - Warranty`
+|   Permissions  | Conditions | Limitations |
+| -------------- | ---------- | ----------- |
+| Commercial use |            | Liability   |
+| Distribution   |            | Warranty    |
+| Modification   |            |             |
+| Private use    |            |             |
+`
 
 exports.GNUAGPLv3 = GNUAGPLv3;
 exports.GNUGPLv3 = GNUGPLv3;
